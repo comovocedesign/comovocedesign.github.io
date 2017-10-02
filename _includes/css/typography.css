@@ -12,11 +12,18 @@
 h1,
 .headline {
   font-size: 55px;
-  line-height: 1.5;
+  line-height: 1.1;
+  text-align: center;
 }
 
 /* #Sub-headlines */
 .section-headline {
   font-size: 21px;
   line-height: 1.5;
+}
+
+/* #title-person */
+.title-person {
+  font-size: 34px;
+  font-weight: bold;
 }

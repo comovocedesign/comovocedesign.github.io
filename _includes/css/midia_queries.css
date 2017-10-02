@@ -1,8 +1,30 @@
-@media only screen and (mix-width:820px){
+@media only screen and (max-width:600px){
   /* #Navegation*/
-  /* #Buttons */
+    .header-navegation {
+      text-align: center;
+    }
+  /* #Typography */
+  h1, .headline {
+    font-size: 34px;
+  }
   /* #Header */
   /* #Content */
+  .main-content {
+    height: auto;
+  }
+  .main-content--person {
+    flex-flow: wrap;
+  }
+  .footer,
+  .main-content--person-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main-content--person-description {
+    padding: 0;
+  }
   /* #Images */
-  /* #Footer */
+  .footer {
+    margin-top: 80px;
+  }
 }

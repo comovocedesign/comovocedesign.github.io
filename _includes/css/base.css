@@ -7,11 +7,10 @@ img { width: 100%; }
 figure, time { margin:0; padding:0; }
 a {
   color: #222222;
-  text-decoration: none;
-  text-transform: uppercase;
+  text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 html, body {
   margin: 0;
@@ -20,6 +19,7 @@ html, body {
   height: 100%;
 }
 body {
-  font: 400 1em/1.8 'Muli', sans-serif;
+  font: 400 1em/1.8 'Hind', sans-serif;
   color: #222222;
+  background: #F5F5F5;
 }

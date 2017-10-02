@@ -1,3 +1,6 @@
+/* #Helpers*/
+.align-right { text-align: right; }
+
 /* #Navegation*/
 .go-top {
   background-position: 0 -40px;
@@ -8,12 +11,41 @@
   right: 50px;
   display: none;
 }
-/* #Header */
-.wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 /* #Content */
+.wrap {
+  max-width: 1100px;
+  margin: 80px auto 0 auto;
+}
+.main-content {
+  height: 100vh;
+}
+.main-content--person {
+  display: flex;
+}
+.main-content--person-item {
+  width: 45%;
+}
+.main-content--person-description {
+  padding-left: 80px;
+}
+
+/* #Header */
+.site-header {
+  height: 100vh;
+  position: relative;
+}
+.header-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+}
+.header-title--content {
+  width: 70%;
+  height: 200px;
+}
 
 /* #Images */
 .icon {
@@ -23,12 +55,36 @@
   position: relative;
 }
 .logo {
-  width: 72px;
-  height: 55px;
+  width: 130px;
+  height: 80px;
+  background-size: 100%;
 }
 .icon-menu {background-position: 0 -545px;}
+.icon-heart {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.icon-heart-filled {background-position: 0 -250px;}
 
 /* #Footer */
 .footer {
+  font-size: 13px;
   border-top: 3px solid #222222;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-icon-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*info lunch*/
+.coming-soon  {
+  background: yellow;
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 21px;
 }
