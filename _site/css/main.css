@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+/* #Navegation*/
+.go-top {
+  background-position: 0 -40px;
+  position: fixed;
+  width: 40px;
+  height: 20px;
+  bottom: 240px;
+  right: 50px;
+  display: none;
+}
+/* #Modules */
+.feature-box {
+  background: #F3F2F6;
+  border-radius: 10px;
+  overflow: hidden;
+
+  width: 80%;
+  margin: 0 auto 40px auto;
+}
+.feature-box .btn {
+  margin-top: 40px;
+  display: block;
+}
+.feature-box--content {
+  padding: 45px;
+  text-align: center;
+}
+.feature-box--image {
+  background: #4F3A4B;
+  color: #fff;
+  text-align: center;
+}
+.feature-box--description {}
+.feature-box--description-title {
+  color: #E75152;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/*landing full width*/
+.full-width-negative {
+  background: #4F3A4B;
+  text-align: left;
+  color: #E75152;
+}
+.full-width-negative--content {
+  padding: 45px;
+}
+.full-width-negative--title::after {
+  content: ' ';
+  display: block;
+  margin: 18px 0 26px 0;
+  width: 89px;
+  border-bottom: 6px solid;
+}
+.full-width-negative--image {
+  margin: 0;
+  padding: 0;
+}
+.full-width-negative--image img {
+  display: block;
+}
+
+/* #Header */
+.site-header{
+  background: #E1DEF4;
+}
+.header-page-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+/* #Content */
+section {
+  text-align: center;
+}
+.section-padding-side {
+  padding: 45px;
+}
+/* #Images */
+.icon {
+  background: url("/../../img/icons.png") no-repeat;
+  background: url("/../../img/icons.svg") no-repeat;
+  display: inline-block;
+  position: relative;
+}
+.logo {
+  width: 72px;
+  height: 55px;
+}
+.ic-social {
+  width: 45px;
+  height: 35px;
+}
+.ic-menu {background-position: 0 -545px;}
+.ic-google-plus {background-position: 0 -71px;}
+.ic-whatsapp {background-position: 0 -118px;}
+.ic-linkedin {background-position: 0 -165px;}
+.ic-medium {background-position: 0 -211px;}
+.ic-twitter {background-position: 0 -258px;}
+.ic-facebook {background-position: 0 -305px;}
+/* #Footer */
+.footer {
+  background: #4F3A4B;
+  color: #fff;
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+  padding: 45px;
+}
+.footer-social-icons {
+
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+img { width: 100%; }
+figure, time { margin:0; padding:0; }
+a {
+  color: #E75152;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font: 400 1em/1.8 'Montserrat', sans-serif;
+  color: #4F3A4B;
+}
+
+/* Typography */
+::-moz-selection{
+  color:#fff;
+  background: #B09263;
+}
+::selection {
+  color:#fff;
+  background: #B09263;
+}
+
+/* #Headlines */
+h1,
+.headline {
+  font-size: 56px;
+  line-height: 56px;
+}
+
+/* #Sub-headlines */
+.section-headline {
+  font-size: 37px;
+  line-height: 45px;
+  color: #E75152;
+}
+
+/* #Titles */
+.feature-box--content-title {
+  color:#E75152;
+  font: 21px;
+  font-weight: bold;
+}
+
+/* Navegation */
+ .mobile-navegation {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.navegation-link-content {
+  background: #4F3A4B;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 40px 140px 40px 40px;
+  margin: 0;
+  top: 0;
+  left: 100px;
+  box-shadow: 0px 0px 40px #4F3A4B;
+  position: absolute;
+  display: none;
+}
+
+.navegation-link {
+  color: #fff;
+  letter-spacing: 2px;
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+/* #Forms */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.payment-input {
+  border: 2px solid #1D1D1D;
+  font-size: 1.1em;
+  padding: 5px;
+  width: 100%;
+}
+input.footer-input {
+  border: 0;
+  outline: none;
+  padding: 11px;
+  width: 41%;
+  -webkit-border-radius: 50px 0 50px 0;
+     -moz-border-radius: 50px 0 0 50px;
+          border-radius: 50px 0 0 50px;
+}
+
+/* #Buttons */
+a.btn,
+.btn {
+  border: 2px solid #E75152;
+  border-radius: 10px;
+  color: #E75152;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+a.btn:hover,
+.btn:hover {
+  background: #E75152;
+  color: #fff;
+}
+.btn-small {
+
+}
+
+@media only screen and (mix-width:820px){
+  /* #Navegation*/
+  /* #Buttons */
+  /* #Header */
+  /* #Content */
+  /* #Images */
+  /* #Footer */
+}
+

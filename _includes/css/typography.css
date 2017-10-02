@@ -1,0 +1,22 @@
+/* Typography */
+::-moz-selection{
+  color:#000;
+  background: yellow;
+}
+::selection {
+  color:#000;
+  background: yellow;
+}
+
+/* #Headlines */
+h1,
+.headline {
+  font-size: 55px;
+  line-height: 1.5;
+}
+
+/* #Sub-headlines */
+.section-headline {
+  font-size: 21px;
+  line-height: 1.5;
+}
