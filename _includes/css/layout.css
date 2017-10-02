@@ -49,8 +49,8 @@
 
 /* #Images */
 .icon {
-  background: url("/../../img/icons.png") no-repeat;
-  background: url("/../../img/icons.svg") no-repeat;
+  background: url("{{site.baseurl}}/img/icons.png") no-repeat;
+  background: url("{{site.baseurl}}/img/icons.svg") no-repeat;
   display: inline-block;
   position: relative;
 }
