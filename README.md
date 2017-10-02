@@ -1,2 +1,2 @@
 # site
-Podcast Como Você Design? Entrevistar grandes criativos do Brasil que criam design que faz a diferença!
+Podcast: Como você design for good? Entrevistas de grandes criativos do Brasil que criam design que faz a diferença!
