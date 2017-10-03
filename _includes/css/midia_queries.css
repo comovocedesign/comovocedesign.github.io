@@ -1,16 +1,29 @@
 @media only screen and (max-width:600px){
   /* #Navegation*/
     .header-navegation {
-      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .break-line {
+      display: inline;
     }
   /* #Typography */
   h1, .headline {
     font-size: 34px;
+    text-align: left;
   }
   /* #Header */
+  .header-title,
+  .site-header {
+    text-align: left;
+  }
+  .header-title--content {
+    width: 90%;
+  }
   /* #Content */
   .main-content {
     height: auto;
+    text-align: left;
   }
   .main-content--person {
     flex-flow: wrap;

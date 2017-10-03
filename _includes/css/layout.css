@@ -1,6 +1,6 @@
 /* #Helpers*/
 .align-right { text-align: right; }
-
+.break-line { display: block; }
 /* #Navegation*/
 .go-top {
   background-position: 0 -40px;
