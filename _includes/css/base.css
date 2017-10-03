@@ -19,7 +19,8 @@ html, body {
   height: 100%;
 }
 body {
-  font: 400 1em/1.8 'Hind', sans-serif;
+  font: 400 1em/1.8 'Cabin', sans-serif;
   color: #222222;
   background: #F5F5F5;
+  letter-spacing: 0.5px;
 }

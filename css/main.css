@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Hind:400,600');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
 {% include css/layout.css %}
 {% include css/base.css %}
 {% include css/typography.css %}

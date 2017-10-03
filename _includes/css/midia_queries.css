@@ -23,8 +23,11 @@
   .main-content--person-description {
     padding: 0;
   }
-  /* #Images */
+  /* #Footer */
   .footer {
     margin-top: 80px;
+  }
+  .get-in-touch {
+    display: block;
   }
 }

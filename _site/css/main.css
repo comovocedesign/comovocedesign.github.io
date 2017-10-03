@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Hind:400,600');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
 /* #Helpers*/
 .align-right { text-align: right; }
 
@@ -111,9 +111,10 @@ html, body {
   height: 100%;
 }
 body {
-  font: 400 1em/1.8 'Hind', sans-serif;
+  font: 400 1em/1.8 'Cabin', sans-serif;
   color: #222222;
   background: #F5F5F5;
+  letter-spacing: 0.5px;
 }
 
 /* Typography */
@@ -131,11 +132,12 @@ h1,
 .headline {
   font-size: 55px;
   line-height: 1.1;
+  font-weight: 700;
   text-align: center;
 }
 
 /* #Sub-headlines */
-.section-headline {
+.sub-headline {
   font-size: 21px;
   line-height: 1.5;
 }
@@ -212,9 +214,12 @@ a.btn:hover,
   .main-content--person-description {
     padding: 0;
   }
-  /* #Images */
+  /* #Footer */
   .footer {
     margin-top: 80px;
+  }
+  .get-in-touch {
+    display: block;
   }
 }
 
