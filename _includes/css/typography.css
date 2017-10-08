@@ -1,11 +1,11 @@
 /* Typography */
 ::-moz-selection{
   color:#000;
-  background: yellow;
+  background: #FBFE56;
 }
 ::selection {
   color:#000;
-  background: yellow;
+  background: #FBFE56;
 }
 
 /* #Headlines */

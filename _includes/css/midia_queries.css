@@ -17,6 +17,7 @@
   .site-header {
     text-align: left;
   }
+  .signup-maillist,
   .header-title--content {
     width: 90%;
   }
@@ -35,6 +36,16 @@
   }
   .main-content--person-description {
     padding: 0;
+  }
+  /* mail */
+  .mc-field-group .mc-text {
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+  }
+  .mc-field-group #mc-embedded-subscribe,
+  .mc-field-group {
+    display: block;
   }
   /* #Footer */
   .footer {

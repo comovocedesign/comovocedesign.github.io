@@ -8,6 +8,9 @@ figure, time { margin:0; padding:0; }
 a {
   color: #222222;
   text-decoration: underline;
+  -webkit-transition: color 0.2s linear;
+   -moz-transition: color 0.2s linear;
+        transition: color 0.2s linear;
 }
 a:hover {
   text-decoration: none;

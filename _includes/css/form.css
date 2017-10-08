@@ -1,4 +1,27 @@
 /* #Forms */
+/* mail */
+.mc-field-group #mc-embedded-subscribe,
+.mc-field-group {
+  display: inline-block;
+}
+.mc-field-group label {
+  display: none;
+}
+.mc-field-group .mc-text {
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 0 -4px;
+}
+#mc_embed_signup {
+  text-align: left;
+  display: inline-block;
+}
+#mc_embed_signup p,
+#mc_embed_signup h2 {
+  margin: 0;
+}
+
 /* #Buttons */
 a.btn,
 .btn {
@@ -6,6 +29,9 @@ a.btn,
   color: #222222;
   padding: 8px 20px;
   text-decoration: none;
+  -webkit-transition: color 0.2s linear;
+   -moz-transition: color 0.2s linear;
+        transition: color 0.2s linear;
 }
 
 a.btn:hover,
@@ -13,8 +39,25 @@ a.btn:hover,
   background: #222222;
   color: #fff;
 }
-
 .btn-soundcloud {
   display: inline-block;
   margin: 20px 0;
+}
+.btn-subscribe {
+  /*letter-spacing: 0.1em;*/
+  background: #222222;
+  border: 1px solid #222222;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  vertical-align: bottom;
+  cursor: pointer;
+  font-size: 1em;
+  -webkit-transition: color 0.2s linear;
+   -moz-transition: color 0.2s linear;
+        transition: color 0.2s linear;
+}
+.btn-subscribe:hover {
+  background: #FBFE56;
+  color: #000;
 }
